@@ -14,7 +14,7 @@ podTemplate(label: 'chart-run-pod', containers: [
 
     node('chart-run-pod') {
 
-        def charts = ['books-api', 'books-gui', 'h2']
+        def charts = ['books-api', 'books-gui', 'h2', 'team-mgmt-api']
 
         def envs = ['dev', 'prod']
 
